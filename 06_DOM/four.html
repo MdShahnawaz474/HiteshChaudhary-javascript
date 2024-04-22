@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur code 4</title>
+</head>
+<body style="background-color: #212121; color:#fff;">
+    <ul>
+        <li class="language">Javascript</li>
+    </ul>
+
+</body>
+<script>
+    function addLanguage(langname){
+        const li = document.createElement("li")
+        li.innerHTML=`${langname}`
+        document.querySelector(".language").appendChild(li)
+    }
+    addLanguage("Python")
+    addLanguage("typecript")
+
+    
+    function addOptiLanguage(langname){
+        const li = document.createElement("li")
+        li.appendChild(document.createTextNode(langname))
+        document.querySelector((".language").appendChild(li))
+    }
+addLanguage('golang')
+
+// // edit :-
+
+// // first method to edit content:-
+// const secondlang= document.querySelector("li:nth-child(2)")
+
+// secondlang.innerHTML="Java"
+
+// // Second method to edit content:-
+// const newLi = document.createElement("li")
+// newLi.textContent="Mojo"
+// secondlang.replaceWith(newLi)
+
+// // third method to edit content:-
+
+// const firstlang = document.querySelector("li:first-child")
+
+// firstlang.outerHTML="<li>Java</li>"
+
+// Remove:- 
+const fastlang= Document.querySelector("li:third-child")
+
+fastlang.remove()
+
+</script>
+</html>
