@@ -1,0 +1,48 @@
+body{
+    background-color:#ffff
+    ;
+}
+
+.canvas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+}
+
+#grey{
+    width: 45%;     
+    height: 200px; 
+    background-color: grey; 
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    border: 2px solid black;
+  }
+
+
+#red{
+    width: 45%;
+    height: 200px; 
+    background-color: red; 
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    border: 2px solid black;
+  }
+
+#blue{
+    width: 45%;     
+    height: 200px; 
+    background-color: blue; 
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#yellow{
+    width: 45%;     
+    height: 200px; 
+    background-color: yellow; 
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    border: 2px solid black;
+}
